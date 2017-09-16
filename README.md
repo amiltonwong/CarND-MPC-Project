@@ -12,7 +12,8 @@ Besides the variables mentioned above, the following two parameters are also use
 
 Also, two control inputs (actuators) are used:
 
-![delta](https://latex.codecogs.com/gif.latex?%5Cdelta) which refers to the steering angle
+![delta](https://latex.codecogs.com/gif.latex?%5Cdelta) which refers to the steering angle.
+
 a , which refers to the acceleration value (can be negative or positive)
 
 ---
