@@ -1,7 +1,10 @@
 # CarND-Controls-MPC
 Self-Driving Car Engineer Nanodegree Program
 
-
+[//]: # (Image References)
+[image1]: ./img/eqt01.jpg
+[image2]: ./img/eqt02.jpg
+[image3]: ./img/eqt03.jpg
 
 
 #### The Model -  Student describes their model in detail. This includes the state, actuators and update equations.
@@ -21,6 +24,9 @@ Also, two autuator outputs (actuators) are used:
 
 a , which refers to the acceleration value (can be negative or positive)
 
+![alt text][image1]
+![alt text][image2]
+![alt text][image3]
 
 #### Timestep Length and Elapsed Duration (N & dt) - Student discusses the reasoning behind the chosen N (timestep length) and dt (elapsed duration between timesteps) values. Additionally the student details the previous values tried.
 
