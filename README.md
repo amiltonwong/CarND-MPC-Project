@@ -8,7 +8,7 @@ Here, we use MPC (Model Predictive Controller) to drive the car along the track 
 Besides the variables mentioned above, the following two parameters are also used to define the MPC pipeline.
 
 - The Cross Track Error (CTE) refers to the y distance of the vehicle apart from the referenced trajectory.
-- The Orientation Error ![EPSI](https://latex.codecogs.com/gif.latex?e%5Cpsi) which describes the difference between the vehicle orientation and the trajectory orientation.
+- The Orientation Error (![EPSI](https://latex.codecogs.com/gif.latex?e%5Cpsi)) which describes the difference between the vehicle orientation and the trajectory orientation.
 ---
 
 ## Dependencies
