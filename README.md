@@ -3,7 +3,12 @@ Self-Driving Car Engineer Nanodegree Program
 
 In this project, the task is to implement a global kinematic model which represents the vehicle state model by position `x,y`, orientation ![psi](https://latex.codecogs.com/gif.latex?%5Cpsi) and velocity `v`.
 
+Here, we use MPC (Model Predictive Controller) to drive the car along the track in a more smooth than last PID project. To acheive this, we have to choose the suitable parameter values for optimizing the MPC cost function.
 
+Besides the variables mentioned above, the following two parameters are also used to define the MPC pipeline.
+
+- The Cross Track Error (CTE) refers to the y distance of the vehicle apart from the referenced trajectory.
+- The Orientation Error ![EPSI](https://latex.codecogs.com/gif.latex?e%5Cpsi) which describes the difference between the vehicle orientation and the trajectory orientation.
 ---
 
 ## Dependencies
