@@ -34,7 +34,7 @@ The update equations for the state vector are listed as follows:
 
 #### Timestep Length and Elapsed Duration (N & dt) - Student discusses the reasoning behind the chosen N (timestep length) and dt (elapsed duration between timesteps) values. Additionally the student details the previous values tried.
 
-We choose N=10 and dt=0.1 (line 9-10 in `main.cpp`) for timestep length and elapsed Duration between timesteps, respectively. These values mean that the optimizer is considering a one-second duration (10*0.1s = 1s) to determine a refinable trajectory. We had tried several other values for N and dt:  N=13, dt=0.2 / N=8, dt=0.125 / N=6, dt=0.15, but found that the most suitable one is N=10 and dt=0.1.
+We choose N=10 and dt=0.1 (line 9-10 in `MPC.cpp`) for timestep length and elapsed Duration between timesteps, respectively. These values mean that the optimizer is considering a one-second duration (10*0.1s = 1s) to determine a refinable trajectory. We had tried several other values for N and dt:  N=13, dt=0.2 / N=8, dt=0.125 / N=6, dt=0.15, but found that the most suitable one is N=10 and dt=0.1.
 
 #### Polynomial Fitting and MPC Preprocessing - A polynomial is fitted to waypoints. If the student preprocesses waypoints, the vehicle state, and/or actuators prior to the MPC procedure it is described.
 
