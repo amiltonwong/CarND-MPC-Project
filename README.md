@@ -25,8 +25,8 @@ Also, two autuator outputs (actuators) are used:
 a , which refers to the acceleration value (can be negative or positive)
 
 ![alt text][image1]
-![alt text][image2]
 
+![alt text][image2]
 ![alt text][image3]
 
 #### Timestep Length and Elapsed Duration (N & dt) - Student discusses the reasoning behind the chosen N (timestep length) and dt (elapsed duration between timesteps) values. Additionally the student details the previous values tried.
