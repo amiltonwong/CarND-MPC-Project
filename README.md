@@ -38,8 +38,13 @@ We choose N=10 and dt=0.1 (line 9-10 in `MPC.cpp`) for timestep length and elaps
 
 #### Polynomial Fitting and MPC Preprocessing - A polynomial is fitted to waypoints. If the student preprocesses waypoints, the vehicle state, and/or actuators prior to the MPC procedure it is described.
 
+To simplify the computation for fitting a polynomial to the waypoints, we transform them into the car's coordinate (lines 106-111 `main.cpp `). 
+
 #### Model Predictive Control with Latency - The student implements Model Predictive Control that handles a 100 millisecond latency. Student provides details on how they deal with latency.
 
+To account for the delay of actuations, we modified the equations (line 106-108 in `MPC.cpp`) for consider the latency by using previous actuations.
+
+Instead of using the cost functions mentioned in class (punishing CTE, epsi, difference between velocity and a reference velocity, delta, acceleration, change in delta, and change in acceleration), we add an additional cost to penalize the combination of velocity and steering (line 65 in `MPC.cpp`) , which results in much stablized corner turning.
 ---
 
 ## Dependencies
