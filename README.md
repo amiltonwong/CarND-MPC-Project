@@ -19,6 +19,8 @@ a , which refers to the acceleration value (can be negative or positive)
 
 #### The Model -  Student describes their model in detail. This includes the state, actuators and update equations.
 
+The state described in kinematic model is [x,y,![EPSI](https://latex.codecogs.com/gif.latex?e%5Cpsi), v, cte, ![EPSI](https://latex.codecogs.com/gif.latex?e%5Cpsi)]consists of 
+
 #### Timestep Length and Elapsed Duration (N & dt) - Student discusses the reasoning behind the chosen N (timestep length) and dt (elapsed duration between timesteps) values. Additionally the student details the previous values tried.
 
 #### Polynomial Fitting and MPC Preprocessing - A polynomial is fitted to waypoints. If the student preprocesses waypoints, the vehicle state, and/or actuators prior to the MPC procedure it is described.
