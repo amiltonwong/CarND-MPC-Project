@@ -45,6 +45,7 @@ To simplify the computation for fitting a polynomial to the waypoints, we transf
 To account for the delay of actuations, we modified the equations (line 106-108 in `MPC.cpp`) for consider the latency by using previous actuations.
 
 Instead of using the cost functions mentioned in class (punishing CTE, epsi, difference between velocity and a reference velocity, delta, acceleration, change in delta, and change in acceleration), we add an additional cost to penalize the combination of velocity and steering (line 65 in `MPC.cpp`) , which results in much stablized corner turning.
+
 ---
 
 ## Dependencies
