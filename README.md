@@ -1,6 +1,11 @@
 # CarND-Controls-MPC
 Self-Driving Car Engineer Nanodegree Program
 
+
+
+
+#### The Model -  Student describes their model in detail. This includes the state, actuators and update equations.
+
 In this project, the task is to implement a global kinematic model which represents the vehicle state model by position `x,y`, orientation ![psi](https://latex.codecogs.com/gif.latex?%5Cpsi) and velocity `v`.
 
 Here, we use MPC (Model Predictive Controller) to drive the car along the track in a more smooth than last PID project. To acheive this, we have to choose the suitable parameter values for optimizing the MPC cost function.
@@ -10,16 +15,12 @@ Besides the variables mentioned above, the following two parameters are also use
 - The Cross Track Error (CTE) which refers to the y distance of the vehicle apart from the referenced trajectory.
 - The Orientation Error (![EPSI](https://latex.codecogs.com/gif.latex?e%5Cpsi)) which refers to the error between the car's orientation and the trajectory's orientation.
 
-Also, two control inputs (actuators) are used:
+Also, two autuator outputs (actuators) are used:
 
 ![delta](https://latex.codecogs.com/gif.latex?%5Cdelta) which refers to the steering angle.
 
 a , which refers to the acceleration value (can be negative or positive)
 
-
-#### The Model -  Student describes their model in detail. This includes the state, actuators and update equations.
-
-The state described in kinematic model is [x,y,![EPSI](https://latex.codecogs.com/gif.latex?e%5Cpsi), v, cte, ![EPSI](https://latex.codecogs.com/gif.latex?e%5Cpsi)]consists of 
 
 #### Timestep Length and Elapsed Duration (N & dt) - Student discusses the reasoning behind the chosen N (timestep length) and dt (elapsed duration between timesteps) values. Additionally the student details the previous values tried.
 
