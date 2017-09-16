@@ -1,7 +1,7 @@
 # CarND-Controls-MPC
 Self-Driving Car Engineer Nanodegree Program
 
-In this project, the task is to implement a global kinematic model which represents the vehicle state model by position `x,y`, orientation`![psi](https://latex.codecogs.com/gif.latex?%5Cpsi)` and velocity `v`.
+In this project, the task is to implement a global kinematic model which represents the vehicle state model by position `x,y`, orientation ![psi](https://latex.codecogs.com/gif.latex?%5Cpsi) and velocity `v`.
 
 
 ---
