@@ -11,8 +11,8 @@ Besides the variables mentioned above, the following two parameters are also use
 - The Orientation Error (![EPSI](https://latex.codecogs.com/gif.latex?e%5Cpsi)) which refers to the error between the car's orientation and the trajectory's orientation.
 
 Also, two control inputs (actuators) are used:
-- ![delta](https://latex.codecogs.com/gif.latex?%5Cdelta) which refers to the steering angle
-- a , which refers to the acceleration value (can be negative or positive)
+![delta](https://latex.codecogs.com/gif.latex?%5Cdelta) which refers to the steering angle
+a , which refers to the acceleration value (can be negative or positive)
 
 ---
 
